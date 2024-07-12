@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.photo{
+    background-image: url(half.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fit-content;
+    /* width: ; */
+    height: 100vh;
+    text-align: center;
+}
+
+.photo h1{
+    padding-top: 100px;
+    font-family:cursive;
+    color: aliceblue;
+}
+
+.photo p{
+    padding-top: 10px;
+    color: aliceblue;
+}
+
+
+.apple,.fb,.google{
+    width: 30px;
+    height: 30px;
+}
+
+footer img{
+    height: 150px;
+}
+
+.pisa{
+    float: right;
+}
+
+.head p{
+    color: rgba(0, 0, 0, .5);
+    margin-bottom: 10px;
+}
+
+form{
+    color: rgb(0, 0, 255);
+    margin-top: 80px;
+}
+
+.form div{
+    text-align: center;
+}
+
+input{
+    height: 50px;
+    width: 250px;    
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 5px 10px;
+}
+
+label{
+    position:absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.forgot{
+    text-decoration: none;
+    margin-left: 120px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.forget{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(70, 70, 255);
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0px 20px;
+}
+
+.logo img{
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.head h1{
+    font-size:50px;
+}
+
+.btn p{
+    color: black;
+}
+
+.register p{
+    color: black;
+}
+
+.register a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
