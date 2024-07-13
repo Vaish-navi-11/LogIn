@@ -19,10 +19,11 @@ body{
 }
 .photoBox img{
     position: absolute;
+    top: 0;
+    margin: 0;
     width: 105vh;
     height: 100vh;
     text-align: center;
-    top:0;
 }
 .photoBox h1{
     position: absolute;
