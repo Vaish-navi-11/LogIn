@@ -22,6 +22,7 @@ body{
     width: 105vh;
     height: 100vh;
     text-align: center;
+    top:0;
 }
 .photoBox h1{
     position: absolute;
