@@ -18,8 +18,8 @@ body{
 
 }
 .photoBox img{
-    
-    width: 110vh;
+    position: absolute;
+    width: 105vh;
     height: 100vh;
     text-align: center;
 }
