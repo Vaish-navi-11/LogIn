@@ -123,6 +123,10 @@ button:hover{
     color: black;
 }
 
+.reg a:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
 footer img{
     height: 150px;
     color: rgb(0, 174, 255);
